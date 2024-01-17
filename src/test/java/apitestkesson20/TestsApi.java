@@ -1,10 +1,11 @@
-import io.restassured.http.ContentType;
+package apitestkesson20;
+
 import org.junit.jupiter.api.Test;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
-import static java.nio.file.Files.size;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.hasItems;
+import static org.hamcrest.Matchers.is;
 
 
 public class TestsApi {
